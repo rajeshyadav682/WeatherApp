@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wetback"
+    tools:context="com.example.compaq.weatherapp.WeatherActivity">
+
+    <TextView
+        android:id="@+id/showcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/showtemp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/showtemp"
+        android:text="showcity"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showtemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wstatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:text="18"
+        android:textSize="70sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/wstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_below="@+id/imageView"
+        android:layout_marginTop="38dp"
+        android:text="status"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignTop="@+id/showtemp"
+        android:layout_toEndOf="@+id/showtemp"
+        android:layout_toRightOf="@+id/showtemp"
+        android:text="oC"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/showwind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/wstatus"
+        android:layout_alignLeft="@+id/showdate"
+        android:layout_alignStart="@+id/showdate"
+        android:text="showwind"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/showcity"
+        android:layout_alignStart="@+id/showcity"
+        android:layout_below="@+id/showcity"
+        android:layout_marginTop="109dp"
+        app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+</RelativeLayout>
