@@ -102,7 +102,7 @@ public class WeatherActivity extends AppCompatActivity  {
                     }
 
 
-               //     JSONObject dayforcast = response.getJSONObject("list.main");
+              /* //     JSONObject dayforcast = response.getJSONObject("list.main");
                     JSONArray jsonArrayforecast = response.getJSONArray("list.Weather");
                     JSONObject jobj = jsonArrayforecast.getJSONObject(9);
                     JSONArray jso = response.getJSONArray("weather");
@@ -110,7 +110,7 @@ public class WeatherActivity extends AppCompatActivity  {
                     String tomodest= dayforcast.getString("description");
                     tmtem.setText(tomotemp);
                     tmsts.setText(tomodest);
-
+*/
 
 
 
